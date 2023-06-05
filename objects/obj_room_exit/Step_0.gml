@@ -4,7 +4,10 @@ if(instance_exists(obj_player) && (position_meeting(obj_player.x, obj_player.y, 
 		global.targetRoom = targetRoom;
 		global.targetX = targetX;
 		global.targetY = targetY;
-		global.targetDIrection = obj_player.direction;
-		room_goto(targetRoom)
+		global.targetDirection = obj_player.direction;
+		with (obj_player){
+			state = playerStateTransition;
+		}
+		roomTransition(TRANS_TYPE.FADE, targetRoom);
 		instance_destroy();
 }
