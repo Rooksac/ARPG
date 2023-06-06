@@ -9,6 +9,7 @@ spriteRoll = spr_sorcerer_teleport
 spriteHurt = spr_sorcerer_hurt
 spriteAttack = spr_sorcerer_melee
 spriteLift = spr_sorcerer_lift
+spriteThrow = spr_sorcerer_throw
 speedRoll = 8
 distanceRoll = 75
 distanceBonk = 40

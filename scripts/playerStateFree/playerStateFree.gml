@@ -43,7 +43,10 @@ function playerStateFree(){
 		activate = instance_position(x+activateX, y+activateY, obj_entity)
 		
 		if(activate == noone || activate.entityActivateScript == -1){
-			//add code here later
+			//if we are holding something, throw it
+			if (global.iLifted != noone){
+				playerThrow();
+			}
 		}
 		else{
 			//activate entity

@@ -8,6 +8,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/obj_entity/obj_entity.yy",},"value":"activateLiftable",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/obj_entity/obj_entity.yy",},"value":"[id]",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityHitScript","path":"objects/obj_entity/obj_entity.yy",},"value":"entityHitSolid",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityThrowBreak","path":"objects/obj_entity/obj_entity.yy",},"value":"False",},
   ],
   "parent": {
     "name": "Objects",

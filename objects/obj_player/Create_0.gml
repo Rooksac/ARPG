@@ -7,7 +7,7 @@ hitByAttack = -1;
 image_speed = 0;
 hSpeed = 0;
 vSpeed = 0;
-speedWalk = 2;
+speedWalk = 3;
 z = 0;
 
 animationEndScript = -1
