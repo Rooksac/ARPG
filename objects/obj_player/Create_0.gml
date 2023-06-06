@@ -10,6 +10,8 @@ vSpeed = 0;
 speedWalk = 2;
 z = 0;
 
+animationEndScript = -1
+
 if (global.targetX != -1){
 	x = global.targetX
 	y = global.targetY
