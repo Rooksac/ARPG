@@ -38,11 +38,34 @@ function playerStateFree(){
 	//interact logic
 	if (keyActivate){
 		//check for entity to activate
-		var activateX = lengthdir_x(10, direction)
-		var activateY = lengthdir_y(10, direction)
-		activate = instance_position(x+activateX, y+activateY, obj_entity)
+		var activateX = x + lengthdir_x(10, direction);
+		var activateY = y + lengthdir_y(10, direction);
+		var activateSize = 4;
+		var activateList = ds_list_create();
+		activate = noone;
+		var entitiesFound = collision_rectangle_list(
+			activateX - activateSize,
+			activateY - activateSize,
+			activateX + activateSize,
+			activateY + activateSize,
+			obj_entity,
+			false,
+			true,
+			activateList,
+			true
+		);
 		
-		if(activate == noone || activate.entityActivateScript == -1){
+		//if the first instance we find is the lifted entity or it has no script, check the next one. 
+		while (entitiesFound > 0) {
+			var check = activateList[|--entitiesFound];
+			if ( check != global.iLifted && check.entityActivateScript != -1){
+				activate = check;
+				break;
+			}
+		}
+		ds_list_destroy(activateList)
+		
+		if(activate == noone){
 			//if we are holding something, throw it
 			if (global.iLifted != noone){
 				playerThrow();
