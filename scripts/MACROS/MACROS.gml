@@ -11,3 +11,14 @@
 #macro TRANSITION_SPEED 0.02
 #macro OUT 0
 #macro IN 1
+
+enum ENEMY_STATE
+{
+	IDLE,
+	WANDER,
+	CHASE,
+	ATTACK,
+	HURT,
+	DIE,
+	WAIT
+}

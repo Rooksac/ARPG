@@ -9,7 +9,7 @@ if(instance_exists(obj_player) && (position_meeting(obj_player.x, obj_player.y, 
 		with (obj_player){
 			state = playerStateTransition;
 		}
-		roomTransition(TRANS_TYPE.FADE, targetRoom);
+		roomTransition(TRANS_TYPE.SLIDE, targetRoom);
 		instance_destroy();
 	}
 }
