@@ -8,6 +8,9 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"propertyId":{"name":"enemyWanderDistance","path":"objects/obj_enemy/obj_enemy.yy",},"value":"50",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entity_shadow","path":"objects/obj_entity/obj_entity.yy",},"value":"False",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"propertyId":{"name":"enemyAggroRadius","path":"objects/obj_enemy/obj_enemy.yy",},"value":"120",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"propertyId":{"name":"enemyAttackRadius","path":"objects/obj_enemy/obj_enemy.yy",},"value":"64",},
   ],
   "parent": {
     "name": "Enemies",

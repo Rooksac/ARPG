@@ -32,11 +32,18 @@ function slimeWander(){
 		if (distanceToGo < enemySpeed){
 			speedThisFrame = distanceToGo
 		};
-		dir = point_direction(x, y, xTo, yTo);
+		//dir = point_direction(x, y, xTo, yTo);
 		hSpeed = lengthdir_x(speedThisFrame, dir);
 		vSpeed = lengthdir_y(speedThisFrame, dir);
 		//Collide and move
 		enemyTileCollision()
+	}
+	//check for aggro
+	if (++aggroCheck >= aggroCheckDuration){
+		if (instance_exists(obj_player) && point_distance(x, y, obj_player.x, obj_player.y) <= enemyAggroRadius){
+			state = ENEMY_STATE.CHASE;
+			target = obj_player;
+		};
 	}
 	//animate Sprite
 		playerAnimateSprite()

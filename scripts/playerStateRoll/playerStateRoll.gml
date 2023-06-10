@@ -10,9 +10,9 @@ function playerStateRoll(){
 	var collided = playerCollision()
 	
 	//update sprite
-	sprite_index = spriteRoll
-	var totalFrames = sprite_get_number(sprite_index)/4
-	image_index = (CARDINAL_DIR * totalFrames) + min(((1-(moveDistanceRemaining / distanceRoll)) * totalFrames), totalFrames-1)
+	sprite_index = spriteRoll;
+	var totalFrames = sprite_get_number(sprite_index)/4;
+	image_index = (CARDINAL_DIR * totalFrames) + min(((1-(moveDistanceRemaining / distanceRoll)) * totalFrames), totalFrames-1);
 	
 	//change state
 	if(moveDistanceRemaining <= 0){
