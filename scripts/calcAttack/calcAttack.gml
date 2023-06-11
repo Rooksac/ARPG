@@ -13,6 +13,9 @@ function calcAttack(hitbox){
 			if (ds_list_find_index(hitByAttack, hitId)==-1){
 				ds_list_add(hitByAttack, hitId);
 				with (hitId){
+					if (object_is_ancestor(object_index, obj_enemy)){
+						hurtEnemy(id, 5, other.id, 10);
+					}
 					if (entityHitScript != -1){
 						script_execute(entityHitScript)
 					}
