@@ -16,6 +16,8 @@ stateNext = state;
 statePrev = state;
 stateWait = 0;
 stateWaitDuration = 0;
+corpseDecay = 0;
+corpseDecayDelay = 120;
 
 
 //Enemy Sprites
