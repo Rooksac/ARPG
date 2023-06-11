@@ -17,8 +17,11 @@ function slimeDie(){
 	 }
 	 direction = dir
 	 playerAnimateSprite()
-	 if (++corpseDecay >= corpseDecayDelay){
-		 corpseDecay = 0
-		 instance_destroy()
-	 }
+	
+	if (++corpseFade > corpseFadeAfter){
+		image_alpha -= 1/corpseFadeDuration
+		if(image_alpha <= 0){
+			instance_destroy()
+		}
+	}
 }

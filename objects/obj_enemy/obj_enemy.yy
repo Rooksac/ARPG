@@ -35,6 +35,8 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"enemyAggroRadius","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"48","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"enemyAttackRadius","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"16","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"enemyHP","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"corpseFadeAfter","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"90","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"corpseFadeDuration","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"60","varType":0,},
   ],
   "solid": false,
   "spriteId": null,
