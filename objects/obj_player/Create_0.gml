@@ -9,6 +9,9 @@ hSpeed = 0;
 vSpeed = 0;
 speedWalk = 3;
 z = 0;
+invulnerable = 0;
+flash = 0;
+flashShader = sh_white_flash
 
 animationEndScript = -1
 
