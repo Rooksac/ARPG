@@ -42,4 +42,5 @@ function textBoxCreate(str, responsesArr = [-1], bg = 2){
 						state = playerStateLocked;
 					}
 				}
+				show_debug_message(image_index)
 }

@@ -104,6 +104,7 @@
     {"id":{"name":"spr_plant","path":"sprites/spr_plant/spr_plant.yy",},},
     {"id":{"name":"spr_tile_village","path":"sprites/spr_tile_village/spr_tile_village.yy",},},
     {"id":{"name":"spr_coll","path":"sprites/spr_coll/spr_coll.yy",},},
+    {"id":{"name":"spr_slime_attack_test","path":"sprites/spr_slime_attack_test/spr_slime_attack_test.yy",},},
     {"id":{"name":"hurtPlayer","path":"scripts/hurtPlayer/hurtPlayer.yy",},},
     {"id":{"name":"spr_slime_idle","path":"sprites/spr_slime_idle/spr_slime_idle.yy",},},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},},

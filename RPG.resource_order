@@ -79,6 +79,7 @@
     {"name":"spr_plant","order":23,"path":"sprites/spr_plant/spr_plant.yy",},
     {"name":"spr_tile_village","order":10,"path":"sprites/spr_tile_village/spr_tile_village.yy",},
     {"name":"spr_coll","order":4,"path":"sprites/spr_coll/spr_coll.yy",},
+    {"name":"spr_slime_attack_test","order":37,"path":"sprites/spr_slime_attack_test/spr_slime_attack_test.yy",},
     {"name":"hurtPlayer","order":20,"path":"scripts/hurtPlayer/hurtPlayer.yy",},
     {"name":"spr_slime_idle","order":32,"path":"sprites/spr_slime_idle/spr_slime_idle.yy",},
     {"name":"spr_shadow","order":17,"path":"sprites/spr_shadow/spr_shadow.yy",},

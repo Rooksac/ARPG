@@ -21,14 +21,22 @@ function slimeChase(){
 		}
 		//collide and move
 		enemyTileCollision()
+		//update sprite
+		direction = dir
+		playerAnimateSprite()
 		
 		if (point_distance(x, y, obj_player.x, obj_player.y) <= enemyAttackRadius){
 			state = ENEMY_STATE.ATTACK;
-			sprite_index = spriteAttack
-			localFrame = 0
+			sprite_index = spriteAttack;
+			image_speed = 1.0;
+			xTo += lengthdir_x(8, dir);
+			yTo += lengthdir_y(8, dir);
+			direction = dir;
+			firstFrame = (sprite_get_number(sprite_index) / 4) * CARDINAL_DIR;
+			firstFrame = clamp(firstFrame, 0, 15);
+			image_index = firstFrame;
+			lastFrame = firstFrame + 4;
 		}
 	}
-	//update sprite
-		direction = dir
-		playerAnimateSprite()
+	
 }
