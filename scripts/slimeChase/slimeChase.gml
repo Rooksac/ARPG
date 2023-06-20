@@ -29,11 +29,14 @@ function slimeChase(){
 			state = ENEMY_STATE.ATTACK;
 			sprite_index = spriteAttack;
 			image_speed = 1.0;
-			xTo += lengthdir_x(8, dir);
-			yTo += lengthdir_y(8, dir);
+			xTo += lengthdir_x(5, dir);
+			yTo += lengthdir_y(5, dir);
 			direction = dir;
 			firstFrame = (sprite_get_number(sprite_index) / 4) * CARDINAL_DIR;
 			firstFrame = clamp(firstFrame, 0, 15);
+			if (direction > 315){
+				firstFrame = 0;
+			}
 			image_index = firstFrame;
 			lastFrame = firstFrame + 4;
 		}

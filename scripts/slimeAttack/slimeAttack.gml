@@ -12,7 +12,7 @@ function slimeAttack(){
 }
 
 function slimeAttackTest(){
-	var spd = enemySpeed;
+	var spd = 1.5;
 	//dont move while in the first frame of animation
 	if (floor(image_index) <= firstFrame){
 		spd = 0
