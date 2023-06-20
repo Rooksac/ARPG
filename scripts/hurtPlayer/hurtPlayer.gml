@@ -17,6 +17,9 @@ function hurtPlayer(dir, force, dmg){
 		}
 		else{
 			//kill the player
+			with (obj_player){
+				state = playerStateDead
+			}
 		}
 	}
 }

@@ -1,7 +1,9 @@
 /// progress transition
 
 with (obj_player){
-	state = playerStateTransition;
+	if( state != playerStateDead){
+		state = playerStateTransition;
+	}
 }
 if (leading == OUT){
 	percent = min(1, percent + TRANSITION_SPEED)
