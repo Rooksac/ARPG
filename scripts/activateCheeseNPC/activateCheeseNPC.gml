@@ -12,7 +12,9 @@ function activateCheeseNPC(){
 				textBoxCreate("I thought I would never see it again! A million blessings upon you!");
 				global.questStatus[? "theCheeseQuest"] = 2;
 				with(obj_cheese){
-					instance_destroy();
+					lifted = false;
+					persistent = true;
+					entityActivateScript = -1;
 				}
 				global.iLifted = noone;
 				with (obj_player) {
@@ -36,7 +38,9 @@ function activateCheeseNPC(){
 				textBoxCreate("I thought I would never see it again! A million blessings upon you!");
 				global.questStatus[? "theCheeseQuest"] = 2;
 				with(obj_cheese){
-					instance_destroy();
+					lifted = false;
+					persistent = true;
+					entityActivateScript = -1;
 				}
 				global.iLifted = noone;
 				with (obj_player) {

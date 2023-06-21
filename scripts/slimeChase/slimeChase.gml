@@ -33,7 +33,6 @@ function slimeChase(){
 			yTo += lengthdir_y(5, dir);
 			direction = dir;
 			firstFrame = (sprite_get_number(sprite_index) / 4) * CARDINAL_DIR;
-			firstFrame = clamp(firstFrame, 0, 15);
 			if (direction > 315){
 				firstFrame = 0;
 			}

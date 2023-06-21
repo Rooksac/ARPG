@@ -31,12 +31,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_sorcerer_a",
-    "path": "sprites/spr_sorcerer_a/spr_sorcerer_a.yy",
+    "name": "spr_sorcerer",
+    "path": "sprites/spr_sorcerer/spr_sorcerer.yy",
   },
   "spriteMaskId": {
-    "name": "spr_sorcerer_a",
-    "path": "sprites/spr_sorcerer_a/spr_sorcerer_a.yy",
+    "name": "spr_sorcerer",
+    "path": "sprites/spr_sorcerer/spr_sorcerer.yy",
   },
   "visible": true,
 }

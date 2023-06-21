@@ -3,13 +3,18 @@
 
 // Inherit the parent event
 event_inherited();
-spriteIdle = spr_sorcerer
-spriteRun = spr_sorcerer_walk
+if (global.iLifted == noone){
+	spriteIdle = spr_sorcerer
+	spriteRun = spr_sorcerer_walk
+}
+else {
+	spriteIdle = spr_sorcerer_carry
+	spriteRun = spr_sorcerer_walk
+}
 spriteRoll = spr_sorcerer_teleport
 spriteHurt = spr_sorcerer_hurt
 spriteAttack = spr_sorcerer_melee
 spriteLift = spr_sorcerer_lift
-spriteCarry = spr_sorcerer_carry
 spriteThrow = spr_sorcerer_throw
 spriteDie = spr_sorcerer_die
 spriteDead = spr_sorcerer_dead

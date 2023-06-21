@@ -20,6 +20,7 @@ function hurtPlayer(dir, force, dmg){
 			with (obj_player){
 				state = playerStateDead
 			}
+			state = ENEMY_STATE.WANDER
 		}
 	}
 }

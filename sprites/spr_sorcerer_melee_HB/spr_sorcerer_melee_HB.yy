@@ -41,8 +41,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Sorcerer",
+    "path": "folders/Sprites/Player Sprites/Sorcerer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
