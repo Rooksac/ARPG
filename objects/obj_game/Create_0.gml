@@ -11,7 +11,8 @@ global.iLifted = noone;
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
 global.iUI = instance_create_layer(0, 0, layer, obj_UI)
-
+global.questStatus = ds_map_create();
+global.questStatus[? "theCheeseQuest"] = 0;
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 
 

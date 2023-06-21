@@ -9,6 +9,7 @@ spriteRoll = spr_sorcerer_teleport
 spriteHurt = spr_sorcerer_hurt
 spriteAttack = spr_sorcerer_melee
 spriteLift = spr_sorcerer_lift
+spriteCarry = spr_sorcerer_carry
 spriteThrow = spr_sorcerer_throw
 spriteDie = spr_sorcerer_die
 spriteDead = spr_sorcerer_dead

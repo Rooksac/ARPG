@@ -9,6 +9,8 @@
   "instanceCreationOrder": [
     {"name":"inst_22E84B24","path":"rooms/room_cave/room_cave.yy",},
     {"name":"inst_2F0E8993","path":"rooms/room_cave/room_cave.yy",},
+    {"name":"inst_4175CCAE","path":"rooms/room_cave/room_cave.yy",},
+    {"name":"inst_4B9ECD34","path":"rooms/room_cave/room_cave.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -19,6 +21,10 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_room_exit","path":"objects/obj_room_exit/obj_room_exit.yy",},"propertyId":{"name":"targetX","path":"objects/obj_room_exit/obj_room_exit.yy",},"value":"580",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":2.0625,"x":-47.0,"y":541.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F0E8993","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sorcerer","path":"objects/obj_sorcerer/obj_sorcerer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":49.0,"y":617.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4175CCAE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cheese_guy","path":"objects/obj_cheese_guy/obj_cheese_guy.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/obj_entity/obj_entity.yy",},"value":"activateCheeseNPC",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":512.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4B9ECD34","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cheese","path":"objects/obj_cheese/obj_cheese.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":128.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_upper","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
 30,96,97,98,96,97,98,242,243,244,96,97,98,96,97,98,96,97,98,96,97,98,96,97,98,96,97,98,96,97,98,-10,0,30,128,129,130,128,129,130,

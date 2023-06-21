@@ -16,5 +16,5 @@ function playerThrow(){
 	}
 	playerActOutAnimation(obj_player.spriteThrow);
 	global.iLifted = noone;
-		
+	spriteIdle = spr_sorcerer;	
 }
