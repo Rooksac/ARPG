@@ -7,7 +7,7 @@ function dropItems(xPos, yPos, itemsArr){
 		var anglePerItem = 360/items;
 		var angle = random(360);
 		for(var i=0; i<items; i++){
-			with (instance_create_layer(xPos, yPos, "Instances", itemsArr[0])){
+			with (instance_create_layer(xPos, yPos, "Instances", itemsArr[i])){
 				direction = angle
 				spd = 0.75 + (items * 0.1) + random(0.1);
 			}

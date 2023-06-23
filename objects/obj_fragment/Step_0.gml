@@ -23,7 +23,7 @@ if (!global.gamePaused){
 	}
 	//Friction
 	fric = 0.05;
-	if (z = 0){
+	if (z == 0){
 		fric = 0.10
 	}
 	x += lengthdir_x(spd, direction)
