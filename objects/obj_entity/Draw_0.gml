@@ -5,7 +5,8 @@ if(entity_shadow){
 }
 
 if (flash != 0){
-	shader_set(sh_white_flash)
+	shader_set(flashShader);
+	uFlash = shader_get_uniform(flashShader, "flash");
 	shader_set_uniform_f(uFlash, flash);
 }
 draw_sprite_ext(
