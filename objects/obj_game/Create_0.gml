@@ -10,6 +10,7 @@ global.targetDirection = 0;
 global.iLifted = noone;
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
+global.playerCoins = 0;
 global.iUI = instance_create_layer(0, 0, layer, obj_UI)
 global.questStatus = ds_map_create();
 global.questStatus[? "theCheeseQuest"] = 0;
