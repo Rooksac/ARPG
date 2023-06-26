@@ -128,6 +128,7 @@
     {"id":{"name":"spr_pot","path":"sprites/spr_pot/spr_pot.yy",},},
     {"id":{"name":"spr_sorcerer_carry","path":"sprites/spr_sorcerer_carry/spr_sorcerer_carry.yy",},},
     {"id":{"name":"playerStateDead","path":"scripts/playerStateDead/playerStateDead.yy",},},
+    {"id":{"name":"ItemScripts","path":"scripts/ItemScripts/ItemScripts.yy",},},
     {"id":{"name":"spr_sorcerer_die","path":"sprites/spr_sorcerer_die/spr_sorcerer_die.yy",},},
     {"id":{"name":"sh_red_flash","path":"shaders/sh_red_flash/sh_red_flash.yy",},},
     {"id":{"name":"attackSlash","path":"scripts/attackSlash/attackSlash.yy",},},

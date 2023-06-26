@@ -16,7 +16,7 @@ global.playerCoins = 0;
 
 //Items
 global.playerHasItems = false;
-global.playerEquipped = ITEM.BOW;
+global.playerEquipped = ITEM.BOMB;
 global.playerAmmo = array_create(ITEM.TYPE_COUNT, -1);
 global.playerItemUnlocked = array_create(ITEM.TYPE_COUNT, false);
 global.playerAmmo[ITEM.BOMB] = 0;
