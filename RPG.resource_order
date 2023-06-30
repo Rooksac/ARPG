@@ -79,6 +79,7 @@
     {"name":"spr_tile_village_big","order":3,"path":"sprites/spr_tile_village_big/spr_tile_village_big.yy",},
     {"name":"dropItems","order":10,"path":"scripts/dropItems/dropItems.yy",},
     {"name":"playerStateFree","order":1,"path":"scripts/playerStateFree/playerStateFree.yy",},
+    {"name":"obj_bomb_drop","order":24,"path":"objects/obj_bomb_drop/obj_bomb_drop.yy",},
     {"name":"playerStateMelee","order":3,"path":"scripts/playerStateMelee/playerStateMelee.yy",},
     {"name":"obj_transition","order":12,"path":"objects/obj_transition/obj_transition.yy",},
     {"name":"dialogueResponses","order":3,"path":"scripts/dialogueResponses/dialogueResponses.yy",},
@@ -128,6 +129,7 @@
     {"name":"textBoxCreate","order":1,"path":"scripts/textBoxCreate/textBoxCreate.yy",},
     {"name":"obj_explosion","order":23,"path":"objects/obj_explosion/obj_explosion.yy",},
     {"name":"spr_slime_die","order":1,"path":"sprites/spr_slime_die/spr_slime_die.yy",},
+    {"name":"spr_bomb_drop","order":53,"path":"sprites/spr_bomb_drop/spr_bomb_drop.yy",},
     {"name":"activateLiftable","order":12,"path":"scripts/activateLiftable/activateLiftable.yy",},
   ],
 }
