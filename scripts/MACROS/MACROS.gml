@@ -27,7 +27,7 @@ enum ITEM
 {
 	NONE,
 	BOMB,
-	BOW,
+	AXE,
 	HOOK,
 	TYPE_COUNT
 }

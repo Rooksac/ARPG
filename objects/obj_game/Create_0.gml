@@ -20,14 +20,14 @@ global.playerEquipped = ITEM.NONE;
 global.playerAmmo = array_create(ITEM.TYPE_COUNT, -1);
 global.playerItemUnlocked = array_create(ITEM.TYPE_COUNT, false);
 global.playerAmmo[ITEM.BOMB] = 0;
-global.playerAmmo[ITEM.BOW] = 0;
+global.playerAmmo[ITEM.AXE] = 0;
 
 //testing 
 global.playerItemUnlocked[ITEM.BOMB] = true;
 global.playerHasItems = true;
 global.playerAmmo[ITEM.BOMB] = 5;
-global.playerItemUnlocked[ITEM.BOW] = true;
-global.playerAmmo[ITEM.BOW] = 10;
+global.playerItemUnlocked[ITEM.AXE] = true;
+global.playerAmmo[ITEM.AXE] = 10;
 
 global.questStatus = ds_map_create();
 global.questStatus[? "theCheeseQuest"] = 0;

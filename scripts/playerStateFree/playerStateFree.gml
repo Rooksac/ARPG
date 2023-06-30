@@ -85,7 +85,7 @@ function playerStateFree(){
 	if (keyItem && !keyActivate && global.playerHasItems && global.playerEquipped != ITEM.NONE){
 		switch (global.playerEquipped){
 			case ITEM.BOMB: useItemBomb(); break;
-			case ITEM.BOW: useItemBow(); break;
+			case ITEM.AXE: useItemAxe(); break;
 			case ITEM.HOOK: useItemHook(); break;
 			default: break;
 		}

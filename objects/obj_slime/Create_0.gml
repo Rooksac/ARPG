@@ -22,5 +22,5 @@ entityDropList = choose
 	[obj_coin],
 	[obj_coin, obj_coin],
 	[obj_bomb_drop],
-	-1,
+	[obj_axe_drop]
 )
