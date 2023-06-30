@@ -7,6 +7,8 @@ keyAttack = keyboard_check_pressed(vk_enter);
 keyRoll = keyboard_check_pressed(vk_shift);
 keyActivate = keyboard_check_pressed(vk_space);
 keyItem = keyboard_check_pressed(vk_control);
+keyItemSelectUp = keyboard_check_pressed(ord("E"));
+keyItemSelectDown = keyboard_check_pressed(ord("Q"));
 
 inputDirection = point_direction(0,0, keyRight - keyLeft, keyDown - keyUp);
 inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
