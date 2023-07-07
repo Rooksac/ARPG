@@ -23,6 +23,7 @@ if (entity != noone){
 		}
 	}
 	if (broken) {
+		instance_create_layer(x, y, "Instances", obj_impact)
 		instance_destroy()
 	}
 }

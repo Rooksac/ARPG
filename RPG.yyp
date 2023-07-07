@@ -43,7 +43,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.6.0.89",
   },
   "resources": [
     {"id":{"name":"obj_text_queued","path":"objects/obj_text_queued/obj_text_queued.yy",},},
@@ -66,6 +66,7 @@
     {"id":{"name":"tile_cave","path":"tilesets/tile_cave/tile_cave.yy",},},
     {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},},
     {"id":{"name":"obj_room_exit","path":"objects/obj_room_exit/obj_room_exit.yy",},},
+    {"id":{"name":"obj_impact","path":"objects/obj_impact/obj_impact.yy",},},
     {"id":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},},
     {"id":{"name":"obj_plant","path":"objects/obj_plant/obj_plant.yy",},},
     {"id":{"name":"spr_axe","path":"sprites/spr_axe/spr_axe.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"playerCollision","path":"scripts/playerCollision/playerCollision.yy",},},
     {"id":{"name":"spr_item_box_UI","path":"sprites/spr_item_box_UI/spr_item_box_UI.yy",},},
     {"id":{"name":"obj_collectible","path":"objects/obj_collectible/obj_collectible.yy",},},
+    {"id":{"name":"spr_impact","path":"sprites/spr_impact/spr_impact.yy",},},
     {"id":{"name":"spr_plant_fragment","path":"sprites/spr_plant_fragment/spr_plant_fragment.yy",},},
     {"id":{"name":"obj_pot","path":"objects/obj_pot/obj_pot.yy",},},
     {"id":{"name":"spr_bomb","path":"sprites/spr_bomb/spr_bomb.yy",},},
