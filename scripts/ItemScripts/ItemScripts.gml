@@ -26,5 +26,6 @@ function throwAxe(){
 }
 
 function useItemHook(){
-
+	state = playerStateHook;
+	localFrame = 0;
 }

@@ -31,6 +31,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_text_queued","order":5,"path":"objects/obj_text_queued/obj_text_queued.yy",},
     {"name":"slimeWander","order":13,"path":"scripts/slimeWander/slimeWander.yy",},
+    {"name":"spr_hook_chain","order":58,"path":"sprites/spr_hook_chain/spr_hook_chain.yy",},
     {"name":"enemyTileCollision","order":14,"path":"scripts/enemyTileCollision/enemyTileCollision.yy",},
     {"name":"hurtEnemy","order":2,"path":"scripts/hurtEnemy/hurtEnemy.yy",},
     {"name":"slimeChase","order":15,"path":"scripts/slimeChase/slimeChase.yy",},
@@ -79,6 +80,7 @@
     {"name":"entityHitDestroy","order":8,"path":"scripts/entityHitDestroy/entityHitDestroy.yy",},
     {"name":"playerThrow","order":3,"path":"scripts/playerThrow/playerThrow.yy",},
     {"name":"MACROS","order":7,"path":"scripts/MACROS/MACROS.yy",},
+    {"name":"spr_hook_blade","order":57,"path":"sprites/spr_hook_blade/spr_hook_blade.yy",},
     {"name":"spr_tile_village_big","order":3,"path":"sprites/spr_tile_village_big/spr_tile_village_big.yy",},
     {"name":"dropItems","order":10,"path":"scripts/dropItems/dropItems.yy",},
     {"name":"playerStateFree","order":1,"path":"scripts/playerStateFree/playerStateFree.yy",},
@@ -91,6 +93,7 @@
     {"name":"calcAttack","order":1,"path":"scripts/calcAttack/calcAttack.yy",},
     {"name":"playerStateLocked","order":2,"path":"scripts/playerStateLocked/playerStateLocked.yy",},
     {"name":"obj_axe","order":25,"path":"objects/obj_axe/obj_axe.yy",},
+    {"name":"playerStateHook","order":8,"path":"scripts/playerStateHook/playerStateHook.yy",},
     {"name":"scriptExecuteArray","order":2,"path":"scripts/scriptExecuteArray/scriptExecuteArray.yy",},
     {"name":"spr_plant","order":23,"path":"sprites/spr_plant/spr_plant.yy",},
     {"name":"spr_tile_village","order":1,"path":"sprites/spr_tile_village/spr_tile_village.yy",},

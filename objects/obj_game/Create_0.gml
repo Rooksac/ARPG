@@ -24,6 +24,7 @@ global.playerAmmo[ITEM.AXE] = 0;
 
 //testing 
 global.playerItemUnlocked[ITEM.BOMB] = true;
+global.playerItemUnlocked[ITEM.HOOK] = true;
 global.playerHasItems = true;
 global.playerAmmo[ITEM.BOMB] = 5;
 global.playerItemUnlocked[ITEM.AXE] = true;

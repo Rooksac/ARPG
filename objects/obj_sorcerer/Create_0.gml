@@ -16,11 +16,8 @@ spriteHurt = spr_sorcerer_hurt
 spriteAttack = spr_sorcerer_melee
 spriteLift = spr_sorcerer_lift
 spriteThrow = spr_sorcerer_throw
+spriteHook = spr_sorcerer_hook
 spriteDie = spr_sorcerer_die
 spriteDead = spr_sorcerer_dead
-speedRoll = 6
-distanceRoll = 100
-distanceBonk = 40
-distanceBonkHeight = 12
-speedBonk = 1.5
-localFrame = 0
+
+

@@ -48,6 +48,7 @@
   "resources": [
     {"id":{"name":"obj_text_queued","path":"objects/obj_text_queued/obj_text_queued.yy",},},
     {"id":{"name":"slimeWander","path":"scripts/slimeWander/slimeWander.yy",},},
+    {"id":{"name":"spr_hook_chain","path":"sprites/spr_hook_chain/spr_hook_chain.yy",},},
     {"id":{"name":"enemyTileCollision","path":"scripts/enemyTileCollision/enemyTileCollision.yy",},},
     {"id":{"name":"hurtEnemy","path":"scripts/hurtEnemy/hurtEnemy.yy",},},
     {"id":{"name":"slimeChase","path":"scripts/slimeChase/slimeChase.yy",},},
@@ -103,6 +104,7 @@
     {"id":{"name":"playerThrow","path":"scripts/playerThrow/playerThrow.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
     {"id":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},},
+    {"id":{"name":"spr_hook_blade","path":"sprites/spr_hook_blade/spr_hook_blade.yy",},},
     {"id":{"name":"spr_tile_village_big","path":"sprites/spr_tile_village_big/spr_tile_village_big.yy",},},
     {"id":{"name":"dropItems","path":"scripts/dropItems/dropItems.yy",},},
     {"id":{"name":"playerStateFree","path":"scripts/playerStateFree/playerStateFree.yy",},},
@@ -118,6 +120,7 @@
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},},
     {"id":{"name":"tile_coll","path":"tilesets/tile_coll/tile_coll.yy",},},
     {"id":{"name":"obj_axe","path":"objects/obj_axe/obj_axe.yy",},},
+    {"id":{"name":"playerStateHook","path":"scripts/playerStateHook/playerStateHook.yy",},},
     {"id":{"name":"scriptExecuteArray","path":"scripts/scriptExecuteArray/scriptExecuteArray.yy",},},
     {"id":{"name":"spr_plant","path":"sprites/spr_plant/spr_plant.yy",},},
     {"id":{"name":"spr_tile_village","path":"sprites/spr_tile_village/spr_tile_village.yy",},},
