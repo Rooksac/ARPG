@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function slimeWander(){
 	//check if reached destination or given up
-	if ((x == xTo && y = yTo) || (timePassed > enemyWanderDistance/enemySpeed)){
+	if ((x == xTo && y == yTo) || (timePassed > enemyWanderDistance/enemySpeed)){
 		hSpeed = 0;
 		vSpeed = 0;
 		//end Move animation
