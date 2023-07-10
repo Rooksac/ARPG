@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
-
 state = ENEMY_STATE.WANDER;
+image_speed = 0;
 
 //Sprites
 spriteMove = spr_bat_move;

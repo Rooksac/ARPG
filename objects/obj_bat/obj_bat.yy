@@ -38,8 +38,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bat_idle",
-    "path": "sprites/spr_bat_idle/spr_bat_idle.yy",
+    "name": "spr_bat_move",
+    "path": "sprites/spr_bat_move/spr_bat_move.yy",
   },
   "spriteMaskId": null,
   "visible": true,

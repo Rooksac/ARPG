@@ -1,5 +1,4 @@
 randomize();
-
 global.gamePaused = false;
 global.iCamera = instance_create_layer(0, 0, layer, obj_camera);
 global.textSpeed = .75;
