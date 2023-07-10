@@ -69,20 +69,58 @@ function batChase(){
 		//update sprite
 		direction = dir
 		playerAnimateSprite()
-		// enter attack state
-		//if (point_distance(x, y, obj_player.x, obj_player.y) <= enemyAttackRadius){
-		//	state = ENEMY_STATE.ATTACK;
-		//	sprite_index = spriteAttack;
-		//	image_speed = 1.0;
-		//	xTo += lengthdir_x(5, dir);
-		//	yTo += lengthdir_y(5, dir);
-		//	direction = dir;
-		//	firstFrame = (sprite_get_number(sprite_index) / 4) * CARDINAL_DIR;
-		//	if (direction > 315){
-		//		firstFrame = 0;
-		//	}
-		//	image_index = firstFrame;
-		//	lastFrame = firstFrame + 4;
-		//}
+		 //enter attack state
+		if (point_distance(x, y, obj_player.x, obj_player.y) <= enemyAttackRadius){
+			drawExclam()
+			stateNext = ENEMY_STATE.ATTACK;
+			stateWaitDuration = 15;
+			state = ENEMY_STATE.WAIT;
+			direction = dir;
+			diveDistanceRemaining = diveDistance;
+			charge = 0;
+		}
 	}
+}
+
+function batAttack(){
+	//just arriving in state
+	if (++charge<chargeTime){
+		playerAnimateSprite()
+		z+= 2;
+	}
+	else{
+		z = 0;
+		diveDistanceRemaining = max(0, diveDistanceRemaining - diveSpeed)
+		var spd = diveSpeed;
+		if (sprite_index != spriteAttack){
+			sprite_index = spriteAttack;
+			dir = point_direction(x, y, obj_player.x, obj_player.y)
+			xTo += lengthdir_x(diveDistance, dir);
+			yTo += lengthdir_y(diveDistance, dir);
+		}
+		var totalFrames = sprite_get_number(sprite_index)/4;
+		image_index = (CARDINAL_DIR * totalFrames) + min(((1-(diveDistanceRemaining / diveDistance)) * totalFrames), totalFrames-1);
+		//calculate remaining distance to move
+		var distanceToGo = point_distance(x, y, xTo, yTo);
+		//check if our current speed is less than the remaining distance to go
+		if (distanceToGo > spd){
+			dir = point_direction(x, y, xTo, yTo);
+			hSpeed = lengthdir_x(spd, dir);
+			vSpeed = lengthdir_y(spd, dir);
+			//move and check for collision
+			if (enemyTileCollision() == true){
+				xTo = x;
+				yTo = y;
+			}
+		}
+		else{
+			x = xTo;
+			y = yTo;
+			sprite_index = spriteIdle;
+			localFrame = 0;
+			stateNext = ENEMY_STATE.CHASE;
+			stateWaitDuration = 15;
+			state = ENEMY_STATE.WAIT;
+		}
+	}			
 }
