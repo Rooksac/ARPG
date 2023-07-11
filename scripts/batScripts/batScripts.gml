@@ -84,30 +84,28 @@ function batChase(){
 
 function batAttack(){
 	//just arriving in state
-	if (++charge<chargeTime){
-		playerAnimateSprite()
-		z+= 2;
-	}
-	else{
-		z = 0;
-		diveDistanceRemaining = max(0, diveDistanceRemaining - diveSpeed)
-		var spd = diveSpeed;
+	//if (++charge<chargeTime){
+	//	playerAnimateSprite()
+	//	z+= 2;
+	//}
+	//else{
 		if (sprite_index != spriteAttack){
 			sprite_index = spriteAttack;
 			dir = point_direction(x, y, obj_player.x, obj_player.y)
 			xTo = x + lengthdir_x(diveDistance, dir);
 			yTo = y + lengthdir_y(diveDistance, dir);
 			direction = dir;
+			z = 0;
 		}
+		diveDistanceRemaining = max(0, diveDistanceRemaining - diveSpeed)
 		var totalFrames = sprite_get_number(sprite_index)/4;
 		image_index = (CARDINAL_DIR * totalFrames) + min(((1-(diveDistanceRemaining / diveDistance)) * totalFrames), totalFrames-1);
 		//calculate remaining distance to move
-		var distanceToGo = point_distance(x, y, xTo, yTo);
 		//check if our current speed is less than the remaining distance to go
-		if (distanceToGo > spd){
+		if (diveDistanceRemaining > diveSpeed){
 			dir = point_direction(x, y, xTo, yTo);
-			hSpeed = lengthdir_x(spd, dir);
-			vSpeed = lengthdir_y(spd, dir);
+			hSpeed = lengthdir_x(diveSpeed, dir);
+			vSpeed = lengthdir_y(diveSpeed, dir);
 			//move and check for collision
 			if (enemyTileCollision() == true){
 				xTo = x;
@@ -123,5 +121,5 @@ function batAttack(){
 			stateWaitDuration = 15;
 			state = ENEMY_STATE.WAIT;
 		}
-	}			
+	//}			
 }
