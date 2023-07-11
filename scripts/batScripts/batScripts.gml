@@ -95,8 +95,9 @@ function batAttack(){
 		if (sprite_index != spriteAttack){
 			sprite_index = spriteAttack;
 			dir = point_direction(x, y, obj_player.x, obj_player.y)
-			xTo += lengthdir_x(diveDistance, dir);
-			yTo += lengthdir_y(diveDistance, dir);
+			xTo = x + lengthdir_x(diveDistance, dir);
+			yTo = y + lengthdir_y(diveDistance, dir);
+			direction = dir;
 		}
 		var totalFrames = sprite_get_number(sprite_index)/4;
 		image_index = (CARDINAL_DIR * totalFrames) + min(((1-(diveDistanceRemaining / diveDistance)) * totalFrames), totalFrames-1);

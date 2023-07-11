@@ -18,10 +18,10 @@ enemyScript[ENEMY_STATE.HURT] = slimeHurt;
 enemyScript[ENEMY_STATE.DIE] = slimeDie;
 
 //dive
-diveDistance = 18;
+diveDistance = 100;
 diveSpeed = 3;
 charge = 0;
-chargeTime = 100;
+chargeTime = 85;
 
 
 entityDropList = choose
