@@ -19,7 +19,7 @@ distanceBonkHeight = 12;
 speedBonk = 1.5;
 localFrame = 0;
 speedHook = 3.0;
-distanceHook = 88;
+distanceHook = 100;
 
 state = playerStateFree;
 lastState = state;

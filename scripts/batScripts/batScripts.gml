@@ -84,11 +84,11 @@ function batChase(){
 
 function batAttack(){
 	//just arriving in state
-	//if (++charge<chargeTime){
-	//	playerAnimateSprite()
-	//	z+= 2;
-	//}
-	//else{
+	if (++charge<chargeTime){
+		playerAnimateSprite()
+		z+= 2;
+	}
+	else{
 		if (sprite_index != spriteAttack){
 			sprite_index = spriteAttack;
 			dir = point_direction(x, y, obj_player.x, obj_player.y)
@@ -121,5 +121,5 @@ function batAttack(){
 			stateWaitDuration = 15;
 			state = ENEMY_STATE.WAIT;
 		}
-	//}			
+	}			
 }
