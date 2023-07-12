@@ -85,6 +85,9 @@ function batChase(){
 function batAttack(){
 	//just arriving in state
 	if (++charge<chargeTime){
+		if(sprite_index != spriteMove){
+			sprite_index = spriteMove
+		}
 		playerAnimateSprite()
 		z+= 2;
 	}

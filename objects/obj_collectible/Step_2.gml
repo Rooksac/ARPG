@@ -29,6 +29,21 @@ if (instance_exists(obj_player)){
 	}
 }
 
+//bounce
+	if (bounceCount != 0){
+		//casues speed to start fast and gradually slow down
+		bounce += (pi*bounceSpeed);
+		if (bounce > pi){
+			bounce -= pi;
+			bounceHeight *= 0.6
+			bounceCount --
+		}
+		z = sin(bounce) * bounceHeight;
+	}
+	else{
+		z = 0
+	}
+
 x += lengthdir_x(spd, direction);
 y += lengthdir_y(spd, direction);
 spd = max(spd-fric, 0);
