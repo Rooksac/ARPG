@@ -8,6 +8,12 @@ if(instance_exists(obj_player) && (position_meeting(obj_player.x, obj_player.y, 
 		global.targetDirection = obj_player.direction;
 		with (obj_player){
 			state = playerStateTransition;
+			if !(other.keepWalking){
+				hSpeed = 0;
+				vSpeed = 0;
+				sprite_index = spriteIdle
+			}
+				
 		}
 		roomTransition(TRANS_TYPE.SLIDE, targetRoom);
 		instance_destroy();
