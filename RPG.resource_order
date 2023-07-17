@@ -114,6 +114,7 @@
     {"name":"scriptExecuteArray","order":2,"path":"scripts/scriptExecuteArray/scriptExecuteArray.yy",},
     {"name":"spr_bat_attack","order":4,"path":"sprites/spr_bat_attack/spr_bat_attack.yy",},
     {"name":"spr_plant","order":4,"path":"sprites/spr_plant/spr_plant.yy",},
+    {"name":"loadGame","order":28,"path":"scripts/loadGame/loadGame.yy",},
     {"name":"spr_house","order":28,"path":"sprites/spr_house/spr_house.yy",},
     {"name":"spr_tile_village","order":1,"path":"sprites/spr_tile_village/spr_tile_village.yy",},
     {"name":"spr_coll","order":5,"path":"sprites/spr_coll/spr_coll.yy",},

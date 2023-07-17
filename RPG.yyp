@@ -141,6 +141,7 @@
     {"id":{"name":"scriptExecuteArray","path":"scripts/scriptExecuteArray/scriptExecuteArray.yy",},},
     {"id":{"name":"spr_bat_attack","path":"sprites/spr_bat_attack/spr_bat_attack.yy",},},
     {"id":{"name":"spr_plant","path":"sprites/spr_plant/spr_plant.yy",},},
+    {"id":{"name":"loadGame","path":"scripts/loadGame/loadGame.yy",},},
     {"id":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},},
     {"id":{"name":"spr_tile_village","path":"sprites/spr_tile_village/spr_tile_village.yy",},},
     {"id":{"name":"spr_coll","path":"sprites/spr_coll/spr_coll.yy",},},

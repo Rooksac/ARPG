@@ -12,6 +12,10 @@ function saveGame(){
 	map[? "playerAmmo"] = global.playerAmmo;
 	map[? "playerEquipped"] = global.playerEquipped;
 	map[? "playerHasItems"] = global.playerHasItems;
+	map[? "iLifted"] = global.iLifted;
+	if (global.iLifted != noone){
+		map[? "liftedInstance"] = global.iLifted.lifted
+	}
 	map[? "targetX"] = global.targetX;
 	map[? "targetY"] = global.targetY;
 	
