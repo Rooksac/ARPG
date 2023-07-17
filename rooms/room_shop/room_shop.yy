@@ -9,6 +9,9 @@
   "instanceCreationOrder": [
     {"name":"inst_65F7CC64","path":"rooms/room_shop/room_shop.yy",},
     {"name":"inst_304F526E","path":"rooms/room_shop/room_shop.yy",},
+    {"name":"inst_1969485C","path":"rooms/room_shop/room_shop.yy",},
+    {"name":"inst_29438C7D","path":"rooms/room_shop/room_shop.yy",},
+    {"name":"inst_2A66DC43","path":"rooms/room_shop/room_shop.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -20,6 +23,22 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_room_exit","path":"objects/obj_room_exit/obj_room_exit.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_room_exit/obj_room_exit.yy",},"value":"room_village",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_room_exit","path":"objects/obj_room_exit/obj_room_exit.yy",},"propertyId":{"name":"keepWalking","path":"objects/obj_room_exit/obj_room_exit.yy",},"value":"False",},
           ],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":416.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1969485C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"propertyId":{"name":"itemCost","path":"objects/obj_shop_item/obj_shop_item.yy",},"value":"5",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"propertyId":{"name":"itemAmount","path":"objects/obj_shop_item/obj_shop_item.yy",},"value":"3",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/obj_entity/obj_entity.yy",},"value":"[\"Bombs (Cost: 5g)\\nFor blowing things up.\", [\"6:Purchase\", \"0:No thanks.\"]]",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29438C7D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":2,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"propertyId":{"name":"item","path":"objects/obj_shop_item/obj_shop_item.yy",},"value":"ITEM.AXE",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"propertyId":{"name":"itemCost","path":"objects/obj_shop_item/obj_shop_item.yy",},"value":"10",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"propertyId":{"name":"itemAmount","path":"objects/obj_shop_item/obj_shop_item.yy",},"value":"5",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/obj_entity/obj_entity.yy",},"value":"[\"Throwing Axe (Cost: 10g)\\nLike a regular axe but you throw it\", [\"6:Purchase\", \"0:No thanks.\"]]",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A66DC43","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":3,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"propertyId":{"name":"item","path":"objects/obj_shop_item/obj_shop_item.yy",},"value":"ITEM.HOOK",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"propertyId":{"name":"itemCost","path":"objects/obj_shop_item/obj_shop_item.yy",},"value":"20",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/obj_entity/obj_entity.yy",},"value":"[\"Hookshot (Cost: 20g)\\ngrab things from afar!\", [\"6:Purchase\", \"0:No thanks.\"]]",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":192.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_upper","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[
 ],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

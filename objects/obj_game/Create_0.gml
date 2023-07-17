@@ -11,7 +11,7 @@ global.iLifted = noone;
 global.iUI = instance_create_layer(0, 0, layer, obj_UI);
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
-global.playerCoins = 0;
+global.playerCoins = 100;
 
 //Items
 global.playerHasItems = false;
@@ -21,13 +21,6 @@ global.playerItemUnlocked = array_create(ITEM.TYPE_COUNT, false);
 global.playerAmmo[ITEM.BOMB] = 0;
 global.playerAmmo[ITEM.AXE] = 0;
 
-//testing 
-global.playerItemUnlocked[ITEM.BOMB] = true;
-global.playerItemUnlocked[ITEM.HOOK] = true;
-global.playerHasItems = true;
-global.playerAmmo[ITEM.BOMB] = 5;
-global.playerItemUnlocked[ITEM.AXE] = true;
-global.playerAmmo[ITEM.AXE] = 10;
 
 global.questStatus = ds_map_create();
 global.questStatus[? "theCheeseQuest"] = 0;

@@ -13,7 +13,8 @@ function dialogueResponses(response){
 			global.questStatus[? "theCheeseQuest"] = 1;
 			break;
 		}
-		case 5: textBoxCreate("Oh well. Maybe some other hero will help me");
+		case 5: textBoxCreate("Oh well. Maybe some other hero will help me"); break;
+		case 6: purchaseItem(activate.item, activate.itemAmount, activate.itemCost); break;
 		default: break;
 	}
 }
