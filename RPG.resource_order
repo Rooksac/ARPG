@@ -134,6 +134,7 @@
     {"name":"spr_sorcerer_die","order":4,"path":"sprites/spr_sorcerer_die/spr_sorcerer_die.yy",},
     {"name":"sh_red_flash","order":1,"path":"shaders/sh_red_flash/sh_red_flash.yy",},
     {"name":"obj_sorcerer","order":2,"path":"objects/obj_sorcerer/obj_sorcerer.yy",},
+    {"name":"saveGame","order":27,"path":"scripts/saveGame/saveGame.yy",},
     {"name":"spr_sorcerer_hook","order":13,"path":"sprites/spr_sorcerer_hook/spr_sorcerer_hook.yy",},
     {"name":"playerDropItem","order":4,"path":"scripts/playerDropItem/playerDropItem.yy",},
     {"name":"obj_cheese","order":18,"path":"objects/obj_cheese/obj_cheese.yy",},
