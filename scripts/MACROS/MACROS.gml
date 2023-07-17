@@ -3,7 +3,7 @@
 #macro FRAME_RATE 30
 #macro TILE_SIZE 16
 #macro CARDINAL_DIR round(direction/90)
-#macro ROOM_START room_village
+#macro ROOM_START room_title
 
 #macro RESOLUTION_W 640
 #macro RESOLUTION_H 360

@@ -1,5 +1,5 @@
 //Pause the game
-if (keyboard_check_pressed(vk_escape) && !instance_exists(obj_transition)){
+if (keyboard_check_pressed(vk_escape) && !instance_exists(obj_transition) && obj_UI.visible == true){
 	global.gamePaused = !global.gamePaused
 	
 	if(global.gamePaused){

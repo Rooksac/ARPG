@@ -15,7 +15,7 @@ global.iLifted = noone;
 global.iUI = instance_create_layer(0, 0, layer, obj_UI);
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
-global.playerCoins = 100;
+global.playerCoins = 0;
 
 //Items
 global.playerHasItems = false;
