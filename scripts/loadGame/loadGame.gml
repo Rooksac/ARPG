@@ -12,11 +12,6 @@ function loadGame(slot){
 		global.playerCoins = json[? "playerCoins"];
 		global.playerEquipped = json[? "playerEquipped"];
 		global.playerHasItems = json[? "playerHasItems"];
-		global.iLifted = json[? "iLifted"];
-		if (global.iLifted != noone){
-			var entity = global.iLifted;
-			entity.lifted = json[? "liftedInstance"];
-		}
 		global.targetX = json[? "targetX"];
 		global.targetY = json[? "targetY"];
 		
