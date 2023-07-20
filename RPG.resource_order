@@ -48,6 +48,7 @@
     {"name":"spr_plant_breaking","order":3,"path":"sprites/spr_plant_breaking/spr_plant_breaking.yy",},
     {"name":"roomTransition","order":11,"path":"scripts/roomTransition/roomTransition.yy",},
     {"name":"tile_cave","order":3,"path":"tilesets/tile_cave/tile_cave.yy",},
+    {"name":"spr_pit_coll","order":9,"path":"sprites/spr_pit_coll/spr_pit_coll.yy",},
     {"name":"spr_health","order":7,"path":"sprites/spr_health/spr_health.yy",},
     {"name":"obj_room_exit","order":13,"path":"objects/obj_room_exit/obj_room_exit.yy",},
     {"name":"obj_impact","order":27,"path":"objects/obj_impact/obj_impact.yy",},
@@ -129,6 +130,7 @@
     {"name":"obj_bomb","order":22,"path":"objects/obj_bomb/obj_bomb.yy",},
     {"name":"obj_bat","order":2,"path":"objects/obj_bat/obj_bat.yy",},
     {"name":"room_village","order":1,"path":"rooms/room_village/room_village.yy",},
+    {"name":"Sprite65","order":16,"path":"sprites/Sprite65/Sprite65.yy",},
     {"name":"spr_roof","order":27,"path":"sprites/spr_roof/spr_roof.yy",},
     {"name":"spr_pot","order":6,"path":"sprites/spr_pot/spr_pot.yy",},
     {"name":"room_title","order":6,"path":"rooms/room_title/room_title.yy",},
@@ -172,6 +174,7 @@
     {"name":"obj_house","order":30,"path":"objects/obj_house/obj_house.yy",},
     {"name":"spr_slime_die","order":1,"path":"sprites/spr_slime_die/spr_slime_die.yy",},
     {"name":"spr_bomb_drop","order":19,"path":"sprites/spr_bomb_drop/spr_bomb_drop.yy",},
+    {"name":"tile_pitColl","order":7,"path":"tilesets/tile_pitColl/tile_pitColl.yy",},
     {"name":"activateLiftable","order":12,"path":"scripts/activateLiftable/activateLiftable.yy",},
   ],
 }

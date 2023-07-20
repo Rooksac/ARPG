@@ -79,7 +79,7 @@
 -4,1,-2,0,3,1,0,0,-7,1,-6,0,1,1,-11,0,1,1,-8,0,1,1,-18,0,1,1,-11,0,1,1,-8,0,1,1,-18,0,1,1,-11,0,
 -4,1,-2,0,-4,1,-18,0,1,1,-39,0,1,1,-39,0,1,1,-39,0,1,1,-39,0,1,1,-39,0,1,1,-39,0,1,1,-39,0,1,1,-39,0,
 1,1,-39,0,1,1,-39,0,1,1,-39,0,1,1,-39,0,-40,1,-40,0,],"TileDataFormat":1,},"tilesetId":{"name":"tile_coll","path":"tilesets/tile_coll/tile_coll.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Rooms",

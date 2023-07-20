@@ -25,6 +25,7 @@ state = playerStateFree;
 lastState = state;
 stateAttack = attackSlash;
 collisionMap = layer_tilemap_get_id(layer_get_id("Collision"));
+pitCollisionMap = layer_tilemap_get_id(layer_get_id("Collision_Pit"));
 hitByAttack = -1;
 
 image_speed = 0;

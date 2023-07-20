@@ -14,7 +14,7 @@ if (!global.gamePaused){
 			throwDistanceTravelled = min(throwDistanceTravelled + 5, entityThrowDistance);
 			x = xstart + lengthdir_x(throwDistanceTravelled, direction)
 			y = ystart + lengthdir_y(throwDistanceTravelled, direction)
-			if (tilemap_get_at_pixel(collisionMap, x, y) > 0){
+			if (tilemap_get_at_pixel(collisionMap, x, y) > 0||tilemap_get_at_pixel(pitCollisionMap, x, y) > 0){
 				thrown = false
 				grav = 0.1
 				if (entityThrowBreak){

@@ -44,7 +44,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"drawExclam","path":"scripts/drawExclam/drawExclam.yy",},},
@@ -70,6 +70,7 @@
     {"id":{"name":"playerStateBonk","path":"scripts/playerStateBonk/playerStateBonk.yy",},},
     {"id":{"name":"roomTransition","path":"scripts/roomTransition/roomTransition.yy",},},
     {"id":{"name":"tile_cave","path":"tilesets/tile_cave/tile_cave.yy",},},
+    {"id":{"name":"spr_pit_coll","path":"sprites/spr_pit_coll/spr_pit_coll.yy",},},
     {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},},
     {"id":{"name":"obj_room_exit","path":"objects/obj_room_exit/obj_room_exit.yy",},},
     {"id":{"name":"obj_impact","path":"objects/obj_impact/obj_impact.yy",},},
@@ -157,6 +158,7 @@
     {"id":{"name":"obj_bomb","path":"objects/obj_bomb/obj_bomb.yy",},},
     {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},},
     {"id":{"name":"room_village","path":"rooms/room_village/room_village.yy",},},
+    {"id":{"name":"Sprite65","path":"sprites/Sprite65/Sprite65.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_roof","path":"sprites/spr_roof/spr_roof.yy",},},
     {"id":{"name":"spr_pot","path":"sprites/spr_pot/spr_pot.yy",},},
@@ -206,6 +208,7 @@
     {"id":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},},
     {"id":{"name":"spr_slime_die","path":"sprites/spr_slime_die/spr_slime_die.yy",},},
     {"id":{"name":"spr_bomb_drop","path":"sprites/spr_bomb_drop/spr_bomb_drop.yy",},},
+    {"id":{"name":"tile_pitColl","path":"tilesets/tile_pitColl/tile_pitColl.yy",},},
     {"id":{"name":"activateLiftable","path":"scripts/activateLiftable/activateLiftable.yy",},},
     {"id":{"name":"room_parent","path":"rooms/room_parent/room_parent.yy",},},
   ],

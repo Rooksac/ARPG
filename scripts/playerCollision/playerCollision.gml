@@ -4,7 +4,7 @@ function playerCollision(){
 	
 	
 	//Horizontal tile Collision
-	if(tilemap_get_at_pixel(collisionMap, x+hSpeed, y)){
+	if(tilemap_get_at_pixel(collisionMap, x+hSpeed, y)||tilemap_get_at_pixel(pitCollisionMap, x+hSpeed, y)){
 		x-= x mod TILE_SIZE
 		if(sign(hSpeed)==1){
 			x += TILE_SIZE-1
@@ -45,7 +45,7 @@ function playerCollision(){
 	ds_list_clear(entityList);
 	
 	//Vertical tile Collision
-	if(tilemap_get_at_pixel(collisionMap, x, y+vSpeed)){
+	if(tilemap_get_at_pixel(collisionMap, x, y+vSpeed)||tilemap_get_at_pixel(pitCollisionMap, x, y+vSpeed)){
 		y-= y mod TILE_SIZE
 		if(sign(vSpeed)==1){
 			y += TILE_SIZE-1

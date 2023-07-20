@@ -36,6 +36,9 @@ function playerStateHook(){
 				hookStatus = HOOK_STATUS.MISSED;
 			}
 			//check for a hit
+			if tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), x+hookX, y+hookY){
+				hookStatus = HOOK_STATUS.MISSED
+			}
 			var hookHit = collision_circle(x+hookX, y+hookY, 3, obj_entity, false, true)
 			if (hookHit != noone && global.iLifted != hookHit){
 				//act depending on what is hit
