@@ -114,6 +114,8 @@
     {"id":{"name":"obj_pot_frag","path":"objects/obj_pot_frag/obj_pot_frag.yy",},},
     {"id":{"name":"spr_npc_1","path":"sprites/spr_npc_1/spr_npc_1.yy",},},
     {"id":{"name":"entityHitDestroy","path":"scripts/entityHitDestroy/entityHitDestroy.yy",},},
+    {"id":{"name":"spr_shop_npc","path":"sprites/spr_shop_npc/spr_shop_npc.yy",},},
+    {"id":{"name":"obj_shop_npc","path":"objects/obj_shop_npc/obj_shop_npc.yy",},},
     {"id":{"name":"spr_tile_interior","path":"sprites/spr_tile_interior/spr_tile_interior.yy",},},
     {"id":{"name":"playerThrow","path":"scripts/playerThrow/playerThrow.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},

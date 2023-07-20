@@ -91,6 +91,8 @@
     {"name":"obj_pot_frag","order":29,"path":"objects/obj_pot_frag/obj_pot_frag.yy",},
     {"name":"spr_npc_1","order":1,"path":"sprites/spr_npc_1/spr_npc_1.yy",},
     {"name":"entityHitDestroy","order":8,"path":"scripts/entityHitDestroy/entityHitDestroy.yy",},
+    {"name":"spr_shop_npc","order":2,"path":"sprites/spr_shop_npc/spr_shop_npc.yy",},
+    {"name":"obj_shop_npc","order":33,"path":"objects/obj_shop_npc/obj_shop_npc.yy",},
     {"name":"spr_tile_interior","order":8,"path":"sprites/spr_tile_interior/spr_tile_interior.yy",},
     {"name":"playerThrow","order":3,"path":"scripts/playerThrow/playerThrow.yy",},
     {"name":"MACROS","order":7,"path":"scripts/MACROS/MACROS.yy",},

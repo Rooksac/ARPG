@@ -1,0 +1,13 @@
+
+if (!global.gamePaused){
+	playerAnimateSprite()
+}
+
+
+
+
+
+
+
+
+

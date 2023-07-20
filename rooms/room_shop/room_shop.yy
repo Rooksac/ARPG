@@ -12,6 +12,7 @@
     {"name":"inst_1969485C","path":"rooms/room_shop/room_shop.yy",},
     {"name":"inst_29438C7D","path":"rooms/room_shop/room_shop.yy",},
     {"name":"inst_2A66DC43","path":"rooms/room_shop/room_shop.yy",},
+    {"name":"inst_C06F3B2","path":"rooms/room_shop/room_shop.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -39,6 +40,10 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_shop_item","path":"objects/obj_shop_item/obj_shop_item.yy",},"propertyId":{"name":"itemCost","path":"objects/obj_shop_item/obj_shop_item.yy",},"value":"20",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/obj_entity/obj_entity.yy",},"value":"[\"Hookshot (Cost: 20g)\\ngrab things from afar!\", [\"6:Purchase\", \"0:No thanks.\"]]",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C06F3B2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shop_npc","path":"objects/obj_shop_npc/obj_shop_npc.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/obj_entity/obj_entity.yy",},"value":"textBoxCreate",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/obj_entity/obj_entity.yy",},"value":"[\"Hello traveller!\\nI've got some of the finest items you've ever seen!\"]",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":128.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_upper","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[
 ],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
@@ -55,8 +60,8 @@
 -20,-2147483648,-6,0,1,1,-13,0,-7,-2147483648,1,1,-12,-2147483648,-6,0,1,1,-13,0,-7,-2147483648,1,1,-12,-2147483648,-6,0,1,1,-13,0,-7,-2147483648,1,1,-12,-2147483648,-6,0,
 1,1,-13,0,-7,-2147483648,1,1,-18,-2147483648,2,1,-2147483648,-4,1,-4,-2147483648,-4,1,-4,-2147483648,-4,1,1,0,-17,-2147483648,2,1,-2147483648,-4,1,-4,-2147483648,-4,1,-4,-2147483648,-4,1,
 -18,-2147483648,1,1,-20,-2147483648,1,1,-18,-2147483648,1,1,-3,0,-7,-2147483648,-2,0,-8,-2147483648,2,1,0,-17,-2147483648,-22,1,1,0,-251,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_coll","path":"tilesets/tile_coll/tile_coll.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Colliision_Pit","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[
-],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Collision_Pit","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
+-920,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_pitColl","path":"tilesets/tile_pitColl/tile_pitColl.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
