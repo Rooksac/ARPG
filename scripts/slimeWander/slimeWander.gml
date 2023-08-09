@@ -41,6 +41,7 @@ function slimeWander(){
 	//check for aggro
 	if (++aggroCheck >= aggroCheckDuration){
 		if (instance_exists(obj_player) && point_distance(x, y, obj_player.x, obj_player.y) <= enemyAggroRadius){
+			drawExclam()
 			state = ENEMY_STATE.CHASE;
 			target = obj_player;
 		};

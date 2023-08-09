@@ -7,9 +7,8 @@ x1 = lerp(x1, x1Target, lerpProgress);
 x2 = lerp(x2, x2Target, lerpProgress);
 
 //Cycle through responses
-keyUp = keyboard_check_pressed(vk_up)
-keyDown = keyboard_check_pressed(vk_down)
-responseSelected += (keyDown - keyUp)
+keyUp = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))
+keyDown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))
 var maximum = array_length(responses) -1
 var minimum = 0
 if (responseSelected > maximum){
