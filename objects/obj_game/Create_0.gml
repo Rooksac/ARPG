@@ -29,6 +29,8 @@ global.playerAmmo[ITEM.AXE] = 0;
 global.questStatus = ds_map_create();
 global.questStatus[? "theCheeseQuest"] = 0;
 global.caveOpen = false;
+global.openChests = ds_map_create();
+global.openChests[? "0"] = false
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 
 

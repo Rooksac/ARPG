@@ -14,6 +14,7 @@ function loadGame(slot){
 		global.playerHasItems = json[? "playerHasItems"];
 		global.targetX = json[? "targetX"];
 		global.targetY = json[? "targetY"];
+		global.caveOpen = json[? "caveOpen"];
 		
 		//lists to arrays
 		for (var i = 0; i<ITEM.TYPE_COUNT; i++){
@@ -23,6 +24,7 @@ function loadGame(slot){
 		
 		//quest status
 		ds_map_copy(global.questStatus, json[? "questStatus"]);
+		ds_map_copy(global.openChests, json[? "openChests"]);
 		
 		//room
 		roomTransition(TRANS_TYPE.SLIDE, json[? "room"])

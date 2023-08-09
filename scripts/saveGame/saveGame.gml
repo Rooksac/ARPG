@@ -14,10 +14,14 @@ function saveGame(){
 	map[? "playerHasItems"] = global.playerHasItems;
 	map[? "targetX"] = global.targetX;
 	map[? "targetY"] = global.targetY;
+	map[? "caveOpen"] = global.caveOpen;
 	
 	var questMap = ds_map_create();
 	ds_map_copy(questMap, global.questStatus);
+	var chestMap = ds_map_create();
+	ds_map_copy(chestMap, global.openChests);
 	ds_map_add_map(map, "questStatus", questMap);
+	ds_map_add_map(map, "openChests", chestMap);
 	
 	//save to a string
 	var saveString = json_encode(map);
