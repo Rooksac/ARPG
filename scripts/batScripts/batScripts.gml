@@ -89,7 +89,7 @@ function batAttack(){
 			sprite_index = spriteMove
 		}
 		playerAnimateSprite()
-		z+= 2;
+		z+= 2.5;
 	}
 	else{
 		if (sprite_index != spriteAttack){

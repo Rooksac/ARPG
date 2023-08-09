@@ -21,7 +21,7 @@ enemyScript[ENEMY_STATE.DIE] = slimeDie;
 diveDistance = 100;
 diveSpeed = 3;
 charge = 0;
-chargeTime = 85;
+chargeTime = 50;
 
 
 entityDropList = choose
