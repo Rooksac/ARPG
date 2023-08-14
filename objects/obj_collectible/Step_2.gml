@@ -5,15 +5,16 @@ if (z == 0){
 	fric = 0.10
 };
 flash = max(flash-0.04, 0)
+framesBeforeCollect = max(framesBeforeCollect-1, 0)
 //magnetise coins
-if (instance_exists(obj_player)){
+if (instance_exists(obj_player) && !framesBeforeCollect){
 	var px = obj_player.x;
 	var py = obj_player.y;
 	var dist = point_distance(x, y, px, py);
 	if (dist < 16){
 		spd  += 0.25;
 		direction = point_direction(x, y, px, py);
-		spd = min(spd, 3);
+		spd = min(spd, 5);
 		fric = 0;
 		if (dist < 5){ //collect radius
 			if (collectScriptArgs != -1){

@@ -28,7 +28,7 @@ if ((keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter)) && ke
 	loadingStarted = true;
 }
 	
-if keyboard_check_pressed(vk_anykey){
+if (keyboard_check_pressed(vk_anykey) && titleVisible == 1){
 	keyPressed = true;
 }
 
