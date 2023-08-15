@@ -20,7 +20,7 @@ for (var i = 1; i<= playerHealthMax; i++){
 var xx, yy;
 //coins icon
 xx = 45;
-yy = 45;
+yy = 35;
 draw_sprite(spr_coin_UI, 0, xx, yy);
 
 //coins text
@@ -30,7 +30,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 xx += sprite_get_width(spr_coin_UI) + 4;
-yy = 48;
+yy = 38;
 
 var str = string(global.playerCoins);
 draw_text(xx+1, yy, str);
@@ -39,6 +39,32 @@ draw_text(xx, yy+1, str);
 draw_text(xx, yy-1, str);
 draw_set_color(c_white);
 draw_text(xx, yy, str);
+
+//draw keys
+
+
+//keys icon
+var xx = 45;
+var yy = 47;
+draw_sprite(spr_key_UI, 0, xx, yy);
+
+//keys text
+draw_set_color(c_black);
+draw_set_font(fnt_UI);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
+xx += sprite_get_width(spr_key_UI) + 4;
+yy = 50;
+
+var str = string(global.playerKeys);
+draw_text(xx+1, yy, str);
+draw_text(xx-1, yy, str);
+draw_text(xx, yy+1, str);
+draw_text(xx, yy-1, str);
+draw_set_color(c_white);
+draw_text(xx, yy, str);
+
 //draw item box
 var xx = 8;
 var yy = 35;

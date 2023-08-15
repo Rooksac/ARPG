@@ -27,6 +27,7 @@
     {"name":"inst_7165E956","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_35571774","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_6D67FF70","path":"rooms/room_village/room_village.yy",},
+    {"name":"inst_195AE9B4","path":"rooms/room_village/room_village.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -68,6 +69,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D67FF70","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"propertyId":{"name":"chestID","path":"objects/obj_chest/obj_chest.yy",},"value":"\"0\"",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_195AE9B4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pumpkin","path":"objects/obj_pumpkin/obj_pumpkin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_upper","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -6,0,5,655,656,657,658,659,-15,0,5,687,688,689,690,691,-15,0,5,719,

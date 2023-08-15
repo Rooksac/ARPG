@@ -8,3 +8,8 @@ function collectAmmo(array){
 	//array = [type, amount]
 	global.playerAmmo[array[0]] += array[1]
 }
+
+function collectKeys(){
+	global.playerKeys +=1;
+	global.keysFound[$ keyLocation] = true
+}

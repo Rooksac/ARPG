@@ -16,6 +16,7 @@ global.iUI = instance_create_layer(0, 0, layer, obj_UI);
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
 global.playerCoins = 0;
+global.playerKeys = 0;
 
 //Items
 global.playerHasItems = false;
@@ -31,6 +32,12 @@ global.questStatus[? "theCheeseQuest"] = 0;
 global.caveOpen = false;
 global.openChests = ds_map_create();
 global.openChests[? "0"] = false
+global.keysFound = 
+{
+	village : false,
+	cave : false,
+	forest : false
+}
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 
 
