@@ -27,16 +27,22 @@ global.playerAmmo[ITEM.BOMB] = 0;
 global.playerAmmo[ITEM.AXE] = 0;
 
 
-global.questStatus = ds_map_create();
-global.questStatus[? "theCheeseQuest"] = 0;
+global.questStatus = 
+{
+	"theCheeseQuest":0
+}
 global.caveOpen = false;
-global.openChests = ds_map_create();
-global.openChests[? "0"] = false
+global.openChests = 
+{
+	"village" : false,
+	"cave" : false,
+	"forest" : false
+}
 global.keysFound = 
 {
-	village : false,
-	cave : false,
-	forest : false
+	"village" : false,
+	"cave" : false,
+	"forest" : false
 }
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 

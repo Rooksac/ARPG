@@ -7,28 +7,33 @@ function loadGame(slot){
 		//load the game data
 		var json = loadJSONFromFile(file);
 		//global variables
-		global.playerHealth = json[? "playerHealth"];
-		global.playerHealthMax = json[? "playerHealthMax"];
-		global.playerCoins = json[? "playerCoins"];
-		global.playerEquipped = json[? "playerEquipped"];
-		global.playerHasItems = json[? "playerHasItems"];
-		global.targetX = json[? "targetX"];
-		global.targetY = json[? "targetY"];
-		global.caveOpen = json[? "caveOpen"];
+		global.playerHealth = json.playerHealth;
+		global.playerHealthMax = json.playerHealthMax;
+		global.playerCoins = json.playerCoins;
+		global.playerKeys = json.playerKeys;
+		global.playerEquipped = json.playerEquipped;
+		global.playerHasItems = json.playerHasItems;
+		global.targetX = json.targetX;
+		global.targetY = json.targetY;
+		global.caveOpen = json.caveOpen;
+		global.playerItemUnlocked = variable_clone(json.playerItemUnlocked);
+		global.playerAmmo = variable_clone(json.playerAmmo);
+		global.questStatus = variable_clone(json.questStatus);
+		global.openChests = variable_clone(json.openChests);
+		global.keysFound = variable_clone(json.keysFound);
 		
-		//lists to arrays
-		for (var i = 0; i<ITEM.TYPE_COUNT; i++){
-			global.playerItemUnlocked[i] = json[? "playerItemUnlocked"][|i];
-			global.playerAmmo[i] = json[? "playerAmmo"][|i];	
-		}
+		////lists to arrays
+		//for (var i = 0; i<ITEM.TYPE_COUNT; i++){
+		//	global.playerItemUnlocked[i] = json[? "playerItemUnlocked"][|i];
+		//	global.playerAmmo[i] = json[? "playerAmmo"][|i];	
+		//}
 		
-		//quest status
-		ds_map_copy(global.questStatus, json[? "questStatus"]);
-		ds_map_copy(global.openChests, json[? "openChests"]);
+		////quest status
+		//ds_map_copy(global.questStatus, json[? "questStatus"]);
+		//ds_map_copy(global.openChests, json[? "openChests"]);
 		
 		//room
-		roomTransition(TRANS_TYPE.SLIDE, json[? "room"])
-		ds_map_destroy(json)
+		roomTransition(TRANS_TYPE.SLIDE, json.room)
 		return true
 	}
 	else{
@@ -42,6 +47,6 @@ function loadJSONFromFile(filename){
 	var buffer = buffer_load(filename);
 	var loadString = buffer_read(buffer, buffer_string);
 	buffer_delete(buffer);
-	var json = json_decode(loadString);
+	var json = json_parse(loadString);
 	return json;
 }

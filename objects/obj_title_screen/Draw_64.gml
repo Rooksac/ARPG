@@ -27,11 +27,11 @@ if (slotsVisible > 0){
 			draw_text(xx+8, yy+8, "Start New Game")
 		}
 		else{
-			draw_text(xx+8, yy+8, roomToAreaName(slotData[slot][? "room"]))
+			draw_text(xx+8, yy+8, roomToAreaName(slotData[slot].room))
 			
 			//draw health
-			var playerHealth = slotData[slot][? "playerHealth"];
-			var playerHealthMax = slotData[slot][? "playerHealthMax"];
+			var playerHealth = slotData[slot].playerHealth;
+			var playerHealthMax = slotData[slot].playerHealthMax;
 			var playerHealthFrac = frac(playerHealth);
 
 			playerHealth -= playerHealthFrac
@@ -47,7 +47,7 @@ if (slotsVisible > 0){
 			}
 			//draw coins
 			draw_sprite(spr_coin_UI, 0, xx+8, yy+28);
-			draw_text(xx+30, yy+25, slotData[slot][? "playerCoins"]);
+			draw_text(xx+30, yy+25, slotData[slot].playerCoins);
 		}
 	}
 	draw_set_alpha(1.0)

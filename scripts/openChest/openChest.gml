@@ -4,16 +4,16 @@ function openChest(){
 	if (global.playerKeys > 0){
 		global.playerKeys -= 1
 		with (activate){
-			show_debug_message(global.openChests[? chestID])
-			if (image_index == 0 && global.openChests[? chestID] == false){
+			show_debug_message(global.openChests[$ chestID])
+			if (image_index == 0 && global.openChests[$ chestID] == false){
 				image_speed = 1.0;
 				dropItems(x, y, entityDropList)
-				global.openChests[? chestID] = true
+				global.openChests[$ chestID] = true
 			}
 		}
 	}
 	else{
-		if (global.openChests[? activate.chestID] == false){
+		if (global.openChests[$ activate.chestID] == false){
 			textBoxCreate("Locked!\nYou'll need a key.")
 		}
 	}

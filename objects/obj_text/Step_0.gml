@@ -9,6 +9,9 @@ x2 = lerp(x2, x2Target, lerpProgress);
 //Cycle through responses
 keyUp = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))
 keyDown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))
+
+responseSelected += (keyDown - keyUp)
+
 var maximum = array_length(responses) -1
 var minimum = 0
 if (responseSelected > maximum){

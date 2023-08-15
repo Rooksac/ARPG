@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function activateCheeseNPC(){
 	var hasCheese = (global.iLifted != noone && global.iLifted.object_index == obj_cheese);
-	switch (global.questStatus[? "theCheeseQuest"]){
+	switch (global.questStatus.theCheeseQuest){
 		//quest not started
 		case 0:{
 			//the player might have the cheese anyway
@@ -10,7 +10,7 @@ function activateCheeseNPC(){
 				//complete quest
 				textBoxCreate("Hey!  Did you find that cheese lying in a cave by any chance?");
 				textBoxCreate("I thought I would never see it again! A million blessings upon you!");
-				global.questStatus[? "theCheeseQuest"] = 2;
+				global.questStatus.theCheeseQuest = 2;
 				with(obj_cheese){
 					lifted = false;
 					persistent = true;
@@ -36,7 +36,7 @@ function activateCheeseNPC(){
 				//complete quest
 				textBoxCreate("Wow!  You rescued my Cheese!");
 				textBoxCreate("I thought I would never see it again! A million blessings upon you!");
-				global.questStatus[? "theCheeseQuest"] = 2;
+				global.questStatus.theCheeseQuest = 2;
 				with(obj_cheese){
 					lifted = false;
 					persistent = true;
