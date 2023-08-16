@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_pot_frag",
-    "path": "sprites/spr_pot_frag/spr_pot_frag.yy",
+    "name": "spr_pot_fragment",
+    "path": "sprites/spr_pot_fragment/spr_pot_fragment.yy",
   },
   "spriteMaskId": null,
   "visible": true,
