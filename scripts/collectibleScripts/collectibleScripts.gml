@@ -13,3 +13,7 @@ function collectKeys(){
 	global.playerKeys +=1;
 	global.keysFound[$ keyLocation] = true
 }
+
+function collectHealth(){
+	global.playerHealth = min(global.playerHealth + 1, global.playerHealthMax)
+}

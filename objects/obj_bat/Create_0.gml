@@ -27,7 +27,12 @@ chargeTime = 50;
 entityDropList = choose
 (
 	[obj_coin],
-	[obj_coin, obj_coin],
 	[obj_bomb_drop],
-	[obj_axe_drop]
+	[obj_axe_drop],
+	[obj_health_drop],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1
 )

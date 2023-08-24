@@ -139,6 +139,7 @@
     {"name":"spr_sorcerer_dead","order":3,"path":"sprites/spr_sorcerer_dead/spr_sorcerer_dead.yy",},
     {"name":"room_shop","order":5,"path":"rooms/room_shop/room_shop.yy",},
     {"name":"spr_axe_drop","order":21,"path":"sprites/spr_axe_drop/spr_axe_drop.yy",},
+    {"name":"obj_health_drop","order":43,"path":"objects/obj_health_drop/obj_health_drop.yy",},
     {"name":"hurtPlayer","order":20,"path":"scripts/hurtPlayer/hurtPlayer.yy",},
     {"name":"spr_slime_idle","order":3,"path":"sprites/spr_slime_idle/spr_slime_idle.yy",},
     {"name":"spr_shadow","order":2,"path":"sprites/spr_shadow/spr_shadow.yy",},
